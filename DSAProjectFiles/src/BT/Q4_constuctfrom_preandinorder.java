@@ -11,6 +11,7 @@ public class Q4_constuctfrom_preandinorder {
         int index=0;
         for(int i=0;i<inorder.length;i++){
             if(inorder[i]==r){
+
                 index=i;
             }
         }
