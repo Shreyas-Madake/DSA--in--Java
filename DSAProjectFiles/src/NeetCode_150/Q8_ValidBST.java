@@ -1,0 +1,28 @@
+package NeetCode_150;
+
+import BT.TreeNode;
+
+public class Q8_ValidBST {
+
+
+        public boolean isValidBST(TreeNode root) {
+            return helper(root,null,null);
+
+        }
+        public boolean helper(TreeNode node,Integer low, Integer high){
+            if(node==null){
+                return true;
+            }
+            if(low!=null && node.val<=low){
+                return false;
+            }
+            if(high!=null && node.val>=high){
+                return false;
+            }
+            boolean lefttree =helper(node.left,low,node.val);
+            boolean righttree =helper(node.right,node.val,high);
+            return lefttree && righttree;
+        }
+    }
+
+
