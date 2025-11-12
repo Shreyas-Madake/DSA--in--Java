@@ -1,6 +1,6 @@
 package NeetCode_150;
 
-public class Q7_Product_Of_Array_Except_Itself {
+public class Q07_Product_Of_Array_Except_Itself {
     public int[] productExceptSelf(int[] nums) {
         int n= nums.length;
         int[] res=new int[n];

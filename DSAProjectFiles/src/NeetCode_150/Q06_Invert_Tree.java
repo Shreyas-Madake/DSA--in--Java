@@ -3,7 +3,7 @@ package NeetCode_150;
 
 import BT.TreeNode;
 
-public class Q6_Invert_Tree {
+public class Q06_Invert_Tree {
     public TreeNode invertTree(TreeNode root) {
         if(root==null){
             return null;

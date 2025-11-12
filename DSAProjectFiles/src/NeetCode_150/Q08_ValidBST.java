@@ -2,7 +2,7 @@ package NeetCode_150;
 
 import BT.TreeNode;
 
-public class Q8_ValidBST {
+public class Q08_ValidBST {
 
 
         public boolean isValidBST(TreeNode root) {

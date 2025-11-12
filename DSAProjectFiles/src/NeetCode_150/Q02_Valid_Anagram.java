@@ -1,6 +1,6 @@
 package NeetCode_150;
 
-public class Q2_Valid_Anagram {
+public class Q02_Valid_Anagram {
     public boolean isAnagram(String s, String t) {
         //Check the lengths of both strings
         if(s.length()!=t.length()){

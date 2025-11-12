@@ -2,7 +2,7 @@ package NeetCode_150;
 
 import java.util.*;
 
-public class Q4_Group_Anagrams {
+public class Q04_Group_Anagrams {
     public List<List<String>> groupAnagrams(String[] strs) {
         if(strs.length==0){
             return new ArrayList();

@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Q5_Topk_frequent_elements {
+public class Q05_Topk_frequent_elements {
     public int[] topKFrequent(int[] nums, int k) {
         int result[]=new int[k];
         Map<Integer,Integer> count=new HashMap<>();

@@ -3,7 +3,7 @@ package NeetCode_150;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Q9_encode_decode_string {
+public class Q09_encode_decode_string {
     public String encode(List<String> strs){
     StringBuilder encodedstring=new StringBuilder();
     for(String str:strs){

@@ -2,7 +2,7 @@ package NeetCode_150;
 
 import java.util.HashSet;
 
-public class Q1_contain_Duplicate {
+public class Q01_contain_Duplicate {
     public boolean containsDuplicate(int[] nums) {
         //create a Hashset to store elements from array
         HashSet<Integer> seenumbers=new HashSet<>();

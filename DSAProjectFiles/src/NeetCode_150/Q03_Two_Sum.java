@@ -3,7 +3,7 @@ package NeetCode_150;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Q3_Two_Sum {
+public class Q03_Two_Sum {
     public int[] twoSum(int[] nums, int target) {
         //Create a HashMap to store number and its Index value
         Map<Integer,Integer> map=new HashMap<>();
