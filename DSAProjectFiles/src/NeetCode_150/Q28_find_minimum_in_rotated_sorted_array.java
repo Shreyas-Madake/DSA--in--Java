@@ -18,6 +18,7 @@ public class Q28_find_minimum_in_rotated_sorted_array {
                 left=mid+1;
             }
             else{
+
                 right=mid-1;
             }
         }
