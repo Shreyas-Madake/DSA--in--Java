@@ -1,6 +1,6 @@
 package SDE_sheet;
-
-public class Q7_Reverse_pairs {
+import java.util.*;
+public class Q07_Reverse_pairs {
     private int cnt = 0;
 
     public int reversePairs(int[] nums) {

@@ -1,6 +1,6 @@
 package SDE_sheet;
 
-public class Q6_Majority_element_1 {
+public class Q06_Majority_element_1 {
     public int majorityElement(int[] nums) {
         int cnt = 0;
         int el = 0; // Initialize el to avoid compilation errors
