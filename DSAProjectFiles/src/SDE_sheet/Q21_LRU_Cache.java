@@ -19,7 +19,7 @@ public class Q21_LRU_Cache {
         }
 
     }
-    public LRUCache(int capacity) {
+    public Q21_LRU_Cache(int capacity) {
         this.capacity=capacity;
         map=new HashMap<>();
         ll=new LinkedList<>();
