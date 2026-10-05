@@ -17,5 +17,7 @@ public class Q56_findMinArrowShots {
             }
         }
         return arrows;
+
     }
+
 }

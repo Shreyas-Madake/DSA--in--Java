@@ -20,7 +20,7 @@ public class Q36_Vertical_order_traversal {
 
         // take care of sorting and fill the res
         // [column wise sorting]
-        for (Map.Entry<Integer, TreeMap<Integer, ArrayList<Integer>>> entry : map.entrySet()) {
+        for (Map.Entry<Integer, TreeMap<Integer, ArrayList<Integer>>> entry : map.entrySet()) {// this is to sort the column wise as treemap inbuils sort keys
             TreeMap<Integer, ArrayList<Integer>> levelMap = entry.getValue();
             ArrayList<Integer> list = new ArrayList<>();
 
